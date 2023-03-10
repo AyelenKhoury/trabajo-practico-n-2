@@ -26,3 +26,14 @@ function contador (array) {
 
 let array1 = [1,2,3,4,5,6];
 contador(array1)
+
+
+// -------------------- //
+
+function contador2 (a) {
+    for (let i = 0; i <= a; i++) {
+        console.log(i);
+    }
+}
+
+contador2(6)
